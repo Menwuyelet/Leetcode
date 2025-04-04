@@ -1,1 +1,2 @@
 # Leetcode
+This repository is created to track my progress on solving leetcode problems. it contains solutions to various leetcode problems. I started solving neetcode 250 to improve my problem solving skill. Some files may contain multiple different solutions in different approach, in that case only one solution is uncommented other solutions are commented. The solutions that is not commented is the most optimal solution for the problem.
