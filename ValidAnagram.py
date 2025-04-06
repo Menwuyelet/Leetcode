@@ -1,7 +1,7 @@
-s = "racecar"
-t = "carrace"
+s = "rat"
+t = "car"
 
-
+## First Solution
 # freq = {}
 # for i in s:
 #     if i in freq:
@@ -22,14 +22,28 @@ t = "carrace"
 #         break
 # print(ans)
 
+## Second Solution
+# s = "rat"
+# t = "cat"
+
+# lss = list(s)
+# lss.sort()
+
+# lst = list(t)
+# lst.sort()
+# if lss == lst:
+#     print("true")
+# else:
+#     print("false")
+
+## Third Solution
 if len(s) != len(t):
     print("false")
 else:
     countS = {}
     countT = {}
-
     for i in range(len(s)):
         countS[s[i]] = 1 + countS.get(s[i], 0)
         countT[t[i]] = 1 + countT.get(t[i], 0)
-    
-    print(countS == countT)
+
+print(countT == countS)
