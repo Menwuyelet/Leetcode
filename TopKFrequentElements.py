@@ -1,3 +1,4 @@
+## first solution
 from collections import defaultdict
 nums = [3,0,1,0]
 k = 1
