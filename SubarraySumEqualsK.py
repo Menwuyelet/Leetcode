@@ -2,7 +2,7 @@ nums = [4,4,4,4,4,4]
 k = 4
 
 sum = [0]
-current = 0
+current = 0 
 for i in nums:
     sum.append(current+i)
     current += i
