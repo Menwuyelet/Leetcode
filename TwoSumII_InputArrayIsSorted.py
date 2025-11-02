@@ -9,5 +9,5 @@ while l < r:
     elif numbers[l] + numbers[r] < target:
         l += 1
     else:
-        print(l+1, r+1)
-        exit()
+        break
+print([l+1, r+1])
